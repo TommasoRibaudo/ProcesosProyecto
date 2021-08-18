@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.0120" tests="3" failures="0">
-  <testsuite name="Root Suite" timestamp="2021-08-18T04:10:00" tests="0" time="0.0000" failures="0">
+<testsuites name="Mocha Tests" time="0.0130" tests="3" failures="1">
+  <testsuite name="Root Suite" timestamp="2021-08-18T04:24:11" tests="0" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="Testing POST request" timestamp="2021-08-18T04:10:00" tests="3" file="C:\Applications\node\ProyectoProcesos\ProcesosProyecto\test\test.js" time="0.0120" failures="0">
+  <testsuite name="Testing POST request" timestamp="2021-08-18T04:24:11" tests="3" file="C:\Applications\node\ProyectoProcesos\ProcesosProyecto\test\test.js" time="0.0130" failures="1">
     <testcase name="Testing POST request should return average, median, standardDeviation" time="0.0100" classname="should return average, median, standardDeviation">
     </testcase>
     <testcase name="Testing POST request should return average, median, standardDeviation" time="0.0010" classname="should return average, median, standardDeviation">
     </testcase>
     <testcase name="Testing POST request should return average, median, standardDeviation" time="0.0010" classname="should return average, median, standardDeviation">
+    </testcase>
+    <testcase name="Testing POST request should return average, median, standardDeviation" time="0.0010" classname="should return average, median, standardDeviation">
+      <failure message="expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 404" type="AssertionError"><![CDATA[AssertionError: expected { Object (_events, _eventsCount, ...) } to have status code 200 but got 404
+    at C:\Applications\node\ProyectoProcesos\ProcesosProyecto\test\test.js:24:37
+    at Test.Request.callback (node_modules\superagent\lib\node\index.js:716:12)
+    at IncomingMessage.<anonymous> (node_modules\superagent\lib\node\index.js:916:18)
+    at IncomingMessage.emit (node:events:406:35)
+    at endReadableNT (node:internal/streams/readable:1331:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)]]></failure>
     </testcase>
   </testsuite>
 </testsuites>
