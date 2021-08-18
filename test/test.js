@@ -18,14 +18,13 @@ describe("Testing POST request", function() {
                     list: [2, 3, 4, 5, 6, 7, 8, 9, 10]
                 })
                 .end(function(err, res) {
-
+                    console.log("end");
                     console.log("error: " + err)
                     console.log(res.body);
                     res.should.have.status(200);
                     res.body.should.have.property("average");
                     res.body.should.have.property("median");
                     res.body.should.have.property("standardDeviation");
-
                 });
         } catch (e) {
             console.log(e);
@@ -40,6 +39,7 @@ describe("Testing POST request", function() {
                 list: [15, 15, 15, 15, 15, 15, 15, 15, 15]
             })
             .end(function(err, res) {
+                console.log("end");
                 console.log(res.body);
                 res.should.have.status(200);
                 res.body.should.have.property("average");
@@ -58,6 +58,7 @@ describe("Testing POST request", function() {
                 list: [0, 0, 0, -15, -15, 1, 2, 30148643251, 14]
             })
             .end(function(err, res) {
+                console.log("end");
                 console.log(res.body);
                 res.should.have.status(200);
                 res.body.should.have.property("average");
