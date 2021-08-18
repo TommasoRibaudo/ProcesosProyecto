@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0090" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2021-08-18T03:19:21" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Testing POST request" timestamp="2021-08-18T03:19:21" tests="3" file="C:\Applications\node\ProyectoProcesos\ProcesosProyecto\test\test.js" time="0.0090" failures="0">
+    <testcase name="Testing POST request should return average, median, standardDeviation" time="0.0090" classname="should return average, median, standardDeviation">
+    </testcase>
+    <testcase name="Testing POST request should return average, median, standardDeviation" time="0.0000" classname="should return average, median, standardDeviation">
+    </testcase>
+    <testcase name="Testing POST request should return average, median, standardDeviation" time="0.0000" classname="should return average, median, standardDeviation">
+    </testcase>
+  </testsuite>
+</testsuites>
