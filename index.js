@@ -11,6 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.post('/statisticalCalculation', (req, res) => {
+    console.log('statisticalCalculation');
     let request = new projectModel(req.body);
     request.save((err, data) => {
         if (err) {
