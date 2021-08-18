@@ -39,7 +39,7 @@ describe("Testing POST request", function() {
             });
     });
     it("should return average, median, standardDeviation", function() {
-        chai.request("http://localhost:3000/")
+        chai.request("http://localhost:3001/")
             .post("/statisticalCalculation")
             .set('content-type', 'application/x-www-form-urlencoded')
             .send({
