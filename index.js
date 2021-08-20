@@ -33,7 +33,6 @@ app.post('/statisticalCalculation', (req, res) => {
         console.log("Standard Deviation: " + standardDeviation);
         let sortedList = data.list.sort((a, b) => a - b);
         let median = (sortedList.length % 2 === 0) ? (sortedList[sortedList.length / 2] + sortedList[sortedList.length / 2 - 1]) / 2 : sortedList[sortedList.length / 2];
-        console.log("Median: " + median);
         //send the average, median and standard deviation to the client
         res.status(200).json({
             average: average,
